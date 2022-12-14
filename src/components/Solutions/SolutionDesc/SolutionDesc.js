@@ -10,7 +10,7 @@ const SolutionDesc = (props) => {
         <Container sx={{}}>
           <h1 className={classes.bigHeader}>
             {heading}.
-            <br /><span style={{ color: "white" }}>{subHeading}</span>.
+            <br /><span style={{ color: "#a1a1a6" }}>{subHeading}</span>.
           </h1>
         </Container>
       </Grid>
