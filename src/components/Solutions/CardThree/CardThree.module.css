@@ -1,0 +1,37 @@
+.card {
+  background: url('https://www.apple.com/v/macbook-air/k/images/overview/graphics_bg_endframe__pj20hcxs4ga6_medium_2x.jpg');
+  background-size: cover;
+  color: white !important;
+  border-radius: 25px !important;
+  overflow: hidden;
+}
+.image {
+  height: 80%;
+  width: 80%;
+}
+.bigHeader {
+  font-size: 60px;
+  line-height: 1.05;
+  font-family: "Crimson Text SemiBold 600";
+}
+
+.button {
+  background-color: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 100px;
+  padding: 9px 17px;
+  white-space: normal;
+}
+
+@media screen and (max-width: 768px) {
+  .bigHeader {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .button {
+    font-size: medium;
+  }
+}

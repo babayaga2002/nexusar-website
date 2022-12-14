@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-size: 17px;
+  background-color: black;
+  line-height: 1.47059;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: 'Cormorant Regular 400';
+  color: var(--text-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

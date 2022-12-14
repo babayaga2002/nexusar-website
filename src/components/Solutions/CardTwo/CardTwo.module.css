@@ -1,0 +1,43 @@
+.card {
+  background: linear-gradient(to top, #DCDCDC 0%, #b6b6b6 100%);
+  color: white !important;
+  border-radius: 25px !important;
+  overflow: hidden;
+}
+.bigHeader {
+  font-size: 30px;
+  line-height: 1.05;
+  font-family: "Crimson Text SemiBold 600";
+}
+/* .button {
+  background-color: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 100px;
+  padding: 9px 17px;
+  white-space: normal;
+} */
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .bigHeader {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .image {
+    height: auto;
+  }
+  .button {
+    font-size: medium;
+  }
+  .bigHeader {
+    font-size: 15px;
+  }
+}

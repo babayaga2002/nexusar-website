@@ -1,0 +1,115 @@
+.button {
+  font-size: 17px;
+  line-height: 1.47059;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: 'SF Pro Text Regular';
+  background-color: #0070c9;
+  background: linear-gradient(#42a1ec, #0070c9);
+  border: 1px solid #07c;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  min-width: 30px;
+  padding: 4px 15px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.small-button {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  background: #0071e3;
+  color: white;
+  font-size: 12px;
+  line-height: 1.33337;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: 'SF Pro Text Regular';
+  min-width: 23px;
+  padding: 4px 11px;
+  border-radius: 12px;
+}
+.small-button:hover {
+  background: #007fff;
+}
+
+.form-button {
+  all: unset;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 980px;
+  background: #0071e3;
+  color: #fff;
+  font-size: 17px;
+  line-height: 1.17648;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: 'SF Pro Text Regular';
+  min-width: 28px;
+  padding: 18px 31px;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  border-radius: 12px;
+  white-space: normal;
+  display: inline-block;
+}
+
+.form-button:focus {
+  box-shadow: 0 0 0 4px rgb(0 125 250 / 60%);
+}
+
+.form-button:disabled {
+  background: #0071e331;
+}
+
+.form-button-danger {
+  all: unset;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 980px;
+  background: #ff453a;
+  color: #fff;
+  font-size: 17px;
+  line-height: 1.17648;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: 'SF Pro Text Regular';
+  min-width: 28px;
+  padding: 18px 31px;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  border-radius: 12px;
+  white-space: normal;
+  display: inline-block;
+}
+
+.form-button-danger:focus {
+  box-shadow: 0 0 0 4px rgb(255 69 58 / 60%);
+}
+
+.centered {
+  margin: 3rem auto;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+#waves {
+  width: 250px;
+}

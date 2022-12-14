@@ -1,0 +1,53 @@
+.card1 {
+  background: linear-gradient(to bottom, #83b091 0%, #9d9da5 100%);
+  color: white !important;
+  border-radius: 25px !important;
+  overflow: hidden;
+  height: 100%;
+}
+
+.card2 {
+  background: linear-gradient(225deg, #8992f3 0%, #959ffd 29%, #87c0fe 73%, #8ddcf9 100%);
+  color: white !important;
+  border-radius: 25px !important;
+  overflow: hidden;
+  height: 100%;
+}
+.card3 {
+  background: linear-gradient(45deg, #f3f389 0%, #fdbb95 29%, #fe9787 73%, #eaf98d 100%);
+  background-size: cover;
+  color: white !important;
+  border-radius: 25px !important;
+  overflow: hidden;
+  height: 100%;
+}
+.bigHeader {
+  font-size: 60px;
+  line-height: 1.05;
+  font-family: "Crimson Text SemiBold 600";
+}
+
+.button {
+  background-color: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 100px;
+  padding: 9px 17px;
+  white-space: normal;
+}
+.image{
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .bigHeader {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .button {
+    font-size: medium;
+  }
+}
