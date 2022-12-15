@@ -62,18 +62,20 @@ const SolutionContent = (props) => {
           />
         </Box>
       </Container>
-      <CardFive
-        heading1={solutionData.l5_1}
-        content1={solutionData.l5_1_content}
-        image1={solutionData.l5_1_image}
-        heading2={solutionData.l5_2}
-        highlights2={solutionData.l5_2_choose}
-        content2={solutionData.l5_2_content}
-        image2={solutionData.l5_2_image}
-        heading3={solutionData.l5_3}
-        content3={solutionData.l5_3_content}
-        image3={solutionData.l5_3_image}
-      />
+      <Box>
+        <CardFive
+          heading1={solutionData.l5_1}
+          content1={solutionData.l5_1_content}
+          image1={solutionData.l5_1_image}
+          heading2={solutionData.l5_2}
+          highlights2={solutionData.l5_2_choose}
+          content2={solutionData.l5_2_content}
+          image2={solutionData.l5_2_image}
+          heading3={solutionData.l5_3}
+          content3={solutionData.l5_3_content}
+          image3={solutionData.l5_3_image}
+        />
+      </Box>
     </Box>
   );
 };

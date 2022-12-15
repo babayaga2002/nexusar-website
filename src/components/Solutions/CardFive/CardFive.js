@@ -17,7 +17,7 @@ const CardFive = (props) => {
   } = props;
 
   return (
-    <Grid container className={classes.card} columnSpacing={6}>
+    <section className={classes.card}>
       <Grid container className={classes.bigTop} sx={{mb: 2}}>
         <h1>Related Needs</h1>
       </Grid>
@@ -81,7 +81,7 @@ const CardFive = (props) => {
           </Grid>
         </Grid>
       </Container>
-    </Grid>
+    </section>
     
   );
 };

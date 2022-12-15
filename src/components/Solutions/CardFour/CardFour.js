@@ -31,7 +31,7 @@ const CardFour = (props) => {
               </Container>
             </Grid>
             <Grid item sx={{ mx: 2 }}>
-              <p style={{fontSize: "20px", color:"#A1A1A6",justifyContent:"center"}}>{content1}</p>
+              <p style={{fontSize: "20px", color: "#222232",justifyContent:"center"}}>{content1}</p>
             </Grid>
           </Grid>
       </Grid>
@@ -49,7 +49,7 @@ const CardFour = (props) => {
               </Container>
             </Grid>
             <Grid item sx={{ mx: 2 }}>
-              <p style={{fontSize: "20px", color:"#A1A1A6",justifyContent:"center"}}>{content2}</p>
+              <p style={{fontSize: "20px", color: "#222232",justifyContent:"center"}}>{content2}</p>
             </Grid>
           </Grid>
       </Grid>
@@ -72,7 +72,7 @@ const CardFour = (props) => {
               </Container>
             </Grid>
             <Grid item sx={{ mx: 2 }}>
-              <p style={{fontSize: "20px", color:"#A1A1A6",justifyContent:"center"}}>{content3}</p>
+              <p style={{fontSize: "20px", color: "#222232",justifyContent:"center"}}>{content3}</p>
             </Grid>
           </Grid>
       </Grid>

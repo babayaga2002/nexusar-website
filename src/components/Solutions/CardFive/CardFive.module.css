@@ -2,17 +2,19 @@
   background: linear-gradient(to top, #474749 0%, #222223 100%);
   color: white !important;
   height: 100%;
-  padding-left: 70px;
-  padding-right: 50px;
+  width: calc(100%-18px);
+  padding-left: 30px;
+  padding-right: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
+  justify-content: space-between;
 }
 .bigTop{
   display: grid;
   justify-content: center;
+  padding-bottom: 15px;
 }
 .content{
-  min-height: 100px;
   background-color: rgb(179, 182, 182);
   color: white !important;
   border-style: solid;
@@ -43,8 +45,8 @@
 
 @media screen and (max-width: 426px) {
   .card{
-    padding-left: 70px;
-    padding-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 @media screen and (max-width: 426px) {
@@ -52,7 +54,7 @@
     font-size: medium;
   }
   .card{
-    padding-left: 60px;
-    padding-right: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }
