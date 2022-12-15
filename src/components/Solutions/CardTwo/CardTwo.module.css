@@ -1,13 +1,14 @@
 .card {
-  background: linear-gradient(to top, #DCDCDC 0%, #b6b6b6 100%);
   color: white !important;
-  border-radius: 25px !important;
   overflow: hidden;
+  /* border: #00001a;
+  border-style: solid; */
 }
 .bigHeader {
   font-size: 30px;
   line-height: 1.05;
   font-family: "Crimson Text SemiBold 600";
+  color: #222223;
 }
 /* .button {
   background-color: transparent;
@@ -38,6 +39,6 @@
     font-size: medium;
   }
   .bigHeader {
-    font-size: 15px;
+    font-size: 25px;
   }
 }

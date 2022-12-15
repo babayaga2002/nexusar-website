@@ -1,17 +1,30 @@
 .card {
-  background: linear-gradient(to right top, #4988fc 0%, #7993fe 25%, #d77efa 100%);
-  color: white !important;
-  border-radius: 25px !important;
-  overflow: hidden;
-  font-size: 16px;
+  background: linear-gradient(to top, #474749 0%, #222223 100%);
+  padding: 24px;
+  width: calc(100%-18px);
 }
-
+.image{
+  display: none;
+}
 .bigHeader {
-  font-size: 30px;
-  line-height: 1.05;
+  color: #fff;
+    letter-spacing: .07em;
+    margin: 0.2em;
+    font-size: 2em;
+    padding-top: 0.2em;
   font-family: "Crimson Text SemiBold 600";
 }
-
+.text{
+  color: #fff;
+  padding-bottom: 1em;
+  margin: auto 0;
+  letter-spacing: .07em;
+}
+.content{
+  margin-bottom: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
 .button {
   background-color: transparent;
   border-width: 2px;
@@ -21,24 +34,35 @@
   white-space: normal;
 }
 
-.image {
-  height: auto;
-}
-
 @media screen and (max-width: 768px) {
   .bigHeader {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 
 @media screen and (max-width: 426px) {
-  .image {
-    height: auto;
-  }
   .button {
     font-size: medium;
   }
   .bigHeader {
-    font-size: 20px;
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .image {
+    -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 50% 100%, 0 100%);
+    height: 100%;
+    width: 15%;
+    display: initial;
+  }
+  .card {
+    align-items: center;
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+    min-height: 100px;
+    margin: 1px;
+    width: calc(100% - 48px);
   }
 }

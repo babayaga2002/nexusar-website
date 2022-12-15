@@ -1,5 +1,5 @@
 .card1 {
-  background: linear-gradient(to bottom, #83b091 0%, #9d9da5 100%);
+  /* background: linear-gradient(to bottom, #83b091 0%, #9d9da5 100%); */
   color: white !important;
   border-radius: 25px !important;
   overflow: hidden;
@@ -7,14 +7,14 @@
 }
 
 .card2 {
-  background: linear-gradient(225deg, #8992f3 0%, #959ffd 29%, #87c0fe 73%, #8ddcf9 100%);
+  /* background: linear-gradient(225deg, #8992f3 0%, #959ffd 29%, #87c0fe 73%, #8ddcf9 100%); */
   color: white !important;
   border-radius: 25px !important;
   overflow: hidden;
   height: 100%;
 }
 .card3 {
-  background: linear-gradient(45deg, #f3f389 0%, #fdbb95 29%, #fe9787 73%, #eaf98d 100%);
+  /* background: linear-gradient(45deg, #f3f389 0%, #fdbb95 29%, #fe9787 73%, #eaf98d 100%); */
   background-size: cover;
   color: white !important;
   border-radius: 25px !important;
@@ -22,9 +22,10 @@
   height: 100%;
 }
 .bigHeader {
-  font-size: 60px;
+  font-size: 26px;
   line-height: 1.05;
   font-family: "Crimson Text SemiBold 600";
+  color: #222232;
 }
 
 .button {
@@ -42,7 +43,7 @@
 
 @media screen and (max-width: 768px) {
   .bigHeader {
-    font-size: 40px;
+    font-size: 26px;
   }
 }
 

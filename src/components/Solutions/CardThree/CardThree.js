@@ -13,13 +13,13 @@ const CardThree = (props) => {
         <Grid item sx={{ alignItems: 'center', justifyContent: 'center'}}>
           <Container sx={{ py: 4 }}>
             <center>
-             <h3>{heading}</h3> 
+             <h3 className={classes.bigHeader}>{heading}</h3> 
             </center>
           </Container>
         </Grid>
         <Grid item sx={{ alignItems: 'center', justifyContent: "center"}}>
           <Container sx={{ py: 4 }}>
-            <h3>{content}</h3>
+            <p className={classes.content}>{content}</p>
           </Container>
         </Grid>
         </Grid>

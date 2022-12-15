@@ -6,15 +6,15 @@ const SolutionDesc = (props) => {
 
   return (
     <Grid container>
-      <Grid item xs={12} sm={6} lg={6} sx={{alignSelf:"center",justifySelf:"center"}} >
-        <Container sx={{}}>
+      <Grid item xs={12} sm={9} lg={6} sx={{alignSelf:"center",justifySelf:"center"}} >
+        <Container sx={{marginRight: "10px"}}>
           <h1 className={classes.bigHeader}>
             {heading}.
-            <br /><span style={{ color: "#a1a1a6" }}>{subHeading}</span>.
+            <br /><span style={{ color: "#a1a1a6" }}>{subHeading}.</span>
           </h1>
         </Container>
       </Grid>
-      <Grid item xs={12} sm={6} lg={6} >
+      <Grid item xs={12} sm={9} lg={6} >
         <Container sx={{overflow: "hidden",alignSelf:"center",justifySelf:"center"}}>
           <img
             className={classes.image}

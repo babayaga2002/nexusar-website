@@ -17,73 +17,80 @@ const CardFive = (props) => {
   } = props;
 
   return (
-    <Grid container spacing={4}>
-      <Grid item xs={12} sm={6} lg={4}>
-        <Paper elevation={4} className={classes.card3}>
-        <Grid container spacing={4} sx={{ mt: 6 }}>
-            <Grid item sx={{ mr: 2 }}>
-              <Container sx={{ minHeight: "10px" ,margin: "0px 0px 0px 0px"}}>
-                <h2 style={{color:"black"}}>{heading1}</h2>
-              </Container>
-            </Grid>
-            <Grid item sx={{ mx: 2 }}>
-              <Container style={{ minHeight: "50px" }}>
-                <img alt="card-2" className={classes.image} src={image1} />
-              </Container>
-            </Grid>
-            <Grid item sx={{ mx: 2 }}>
-            <p style={{fontSize: "22px", color:"black"}} >{content1}</p>
+    <Grid container className={classes.card} columnSpacing={6}>
+      <Grid container className={classes.bigTop} sx={{mb: 2}}>
+        <h1>Related Needs</h1>
+      </Grid>
+      <Container className={classes.content}>
+        <Grid
+          container
+          spacing={4}
+          style={{ justifyContent: "center" }}
+          sx={{ pb: 6 }}
+        >
+          <Grid item xs={12} sm={8} lg={4}>
+            <Grid container spacing={4} sx={{ my: 2 }}>
+              <Grid item sx={{ mx: 2 }}>
+                <Container>
+                  <img alt="card-2" className={classes.image} src={image1} />
+                </Container>
+              </Grid>
+              <Grid item sx={{ mr: 2 }}>
+                <Container>
+                  <h2 className={classes.bigHeader}>{heading1}</h2>
+                </Container>
+              </Grid>
+              <Grid item sx={{ mx: 2 }}>
+                <p style={{ fontSize: "18px", color: "#636366" }}>{content1}</p>
+              </Grid>
             </Grid>
           </Grid>
-        </Paper>
-      </Grid>
-      <Grid item xs={12} sm={6} lg={4}>
-        <Paper elevation={4} className={classes.card1}>
-        <Grid container spacing={4} sx={{ mt: 6 }}>
-            
-            <Grid item sx={{ mr: 2 }}>
-              <Container sx={{ minHeight: "10px" ,margin: "0px 0px 0px 0px"}}>
-                <h2 style={{color:"black"}}>{heading2}</h2>
-              </Container>
-            </Grid>
-            <Grid item sx={{ mx: 2 }}>
-              <Container style={{ minHeight: "50px" }}>
-                <img alt="card-2" className={classes.image} src={image2} />
-              </Container>
-            </Grid>
-            <Grid item sx={{ mx: 2 }}>
-            <p style={{fontSize: "22px", color:"black"}} >{content2}</p>
+          <Grid item xs={12} sm={8} lg={4}>
+            <Grid container spacing={4} sx={{ my: 2 }}>
+              <Grid item sx={{ mx: 2 }}>
+                <Container>
+                  <img alt="card-2" className={classes.image} src={image1} />
+                </Container>
+              </Grid>
+              <Grid item sx={{ mr: 2 }}>
+                <Container>
+                  <h2 className={classes.bigHeader}>{heading1}</h2>
+                </Container>
+              </Grid>
+              <Grid item sx={{ mx: 2 }}>
+                <p style={{ fontSize: "18px", color: "#636366" }}>{content1}</p>
+              </Grid>
             </Grid>
           </Grid>
-        </Paper>
-      </Grid>
-      <Grid item xs={12} sm={6} lg={4}>
-        <Paper elevation={4} className={classes.card2}>
-          <Grid container spacing={4} sx={{ mt: 6 }}>
-            <Grid item sx={{ mr: 2 }}>
-              <Container sx={{ minHeight: "10px" ,margin: "0px 0px 0px 0px"}}>
-                <h2 style={{color:"black"}}>{heading3}</h2>
-              </Container>
-            </Grid>
-            <Grid item sx={{ mx: 2}}>
-              <Container style={{ minHeight: "50px" }}>
-                <img alt="card-2" className={classes.image} src={image3} />
-              </Container>
-            </Grid>
-            <Grid item sx={{ mx: 2 }}>
-            <p style={{fontSize: "22px", color:"black"}} >{content1}</p>
+          <Grid item xs={12} sm={8} lg={4}>
+            <Grid container spacing={4} sx={{ my: 2 }}>
+              <Grid item sx={{ mx: 2 }}>
+                <Container>
+                  <img alt="card-2" className={classes.image} src={image1} />
+                </Container>
+              </Grid>
+              <Grid item sx={{ mr: 2 }}>
+                <Container>
+                  <h2 className={classes.bigHeader}>{heading1}</h2>
+                </Container>
+              </Grid>
+              <Grid item sx={{ mx: 2 }}>
+                <p style={{ fontSize: "18px", color: "#636366" }}>{content1}</p>
+              </Grid>
             </Grid>
           </Grid>
-        </Paper>
-      </Grid>
+        </Grid>
+      </Container>
     </Grid>
+    
   );
 };
 
 export default CardFive;
-{/* <Container sx={{ py: 6 }}>
+{
+  /* <Container sx={{ py: 6 }}>
             <Link to="#" className={classes.button}>
               See how M1 redefines speed
             </Link>
-          </Container> */}
-          
+          </Container> */
+}
