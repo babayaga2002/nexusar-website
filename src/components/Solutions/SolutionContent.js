@@ -12,12 +12,9 @@ import allSolutionsData from "../../data/solutions.json";
 
 const SolutionContent = (props) => {
   const { solutionID } = props;
-  console.log(allSolutionsData[0]);
-  console.log(solutionID);
   const solutionData = allSolutionsData.filter(
     (data) => data.id === solutionID
   )[0];
-  console.log(solutionData);
 
   return (
     <Box sx={{ py: 2 }}>

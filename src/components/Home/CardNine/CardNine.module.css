@@ -1,0 +1,65 @@
+.card {
+    overflow: hidden;
+    padding-right: 40px;
+  }
+  .box{
+    border-left: 5px #3D83C3 solid;
+  }
+  .bigHeader {
+    font-size: 40px;
+    line-height: 1.05;
+    font-family: "Crimson Text SemiBold 600";
+    color: white;
+  }
+  .content{
+    font-size: 18px;
+    color: white;
+    padding-right: 40px;
+  }
+  .bottom {
+    font-size: 200px;
+    font-family: "Crimson Text SemiBold 600";
+    color: black;
+    padding-top: 50px;
+  }
+  /* .button {
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 100px;
+    padding: 9px 17px;
+    white-space: normal;
+  } */
+  
+  .image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .bigHeader {
+      font-size: 30px;
+    }
+    .bottom{
+        font-size: 150px;
+        padding-top: 35px;
+    }
+  }
+  
+  @media screen and (max-width: 426px) {
+    .image {
+      height: auto;
+    }
+    .button {
+      font-size: medium;
+    }
+    .bigHeader {
+      font-size: 25px;
+    }
+    .bottom{
+        font-size: 100px;
+        padding-top: 25px;
+    }
+  }
+  

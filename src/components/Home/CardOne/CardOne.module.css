@@ -1,0 +1,42 @@
+.card {
+    overflow: hidden;
+  }
+  .bigHeader {
+    font-size: 48px;
+    line-height: 1.2;
+    font-family: "Crimson Text SemiBold 600";
+    color: #3D83C3;
+  }
+  /* .button {
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 100px;
+    padding: 9px 17px;
+    white-space: normal;
+  } */
+  
+  .image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .bigHeader {
+      font-size: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 426px) {
+    .image {
+      height: auto;
+    }
+    .button {
+      font-size: medium;
+    }
+    .bigHeader {
+      font-size: 25px;
+    }
+  }
+  

@@ -22,16 +22,16 @@
   height: 100%;
 }
 .bigHeader {
-  font-size: 30px;
+  font-size: 40px;
   line-height: 1.05;
   font-family: "Crimson Text SemiBold 600";
-  color: #222232;
+  color: white;
   text-align: left;
-  margin-top: 20px;
   padding-bottom: 20px;
 }
 .content{
   font-size: 20px;
+  color: white;
 }
 
 .button {
@@ -45,25 +45,17 @@
 .image{
   height: 100%;
   width: 100%;
-  min-height: 300px;
-  padding-top: 20px;
-  margin-bottom: 10px;
+  max-height: 180px;
 }
 
 @media screen and (max-width: 768px) {
   .bigHeader {
-    font-size: 26px;
-  }
-  .image{
-    min-height: 200px;
+    font-size: 36px;
   }
 }
 
 @media screen and (max-width: 426px) {
   .button {
     font-size: medium;
-  }
-  .image{
-    min-height: 180px;
   }
 }

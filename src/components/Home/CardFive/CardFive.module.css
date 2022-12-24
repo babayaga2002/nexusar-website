@@ -1,0 +1,17 @@
+.bigHeader {
+    padding-top: 200px;
+    font-size: 110px;
+    line-height: 1.05;
+    font-family: "Crimson Text SemiBold 600";
+    padding-bottom: 60px;
+    color: white;
+}
+.subHeading{
+    color: white;
+}
+@media screen and (max-width: 768px) {
+    .bigHeader {
+        padding-top: 110px;
+      font-size: 60px;
+    }
+  }

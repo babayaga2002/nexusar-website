@@ -1,0 +1,54 @@
+.card {
+    overflow: hidden;
+  }
+  .bigHeader {
+    font-size: 80px;
+    line-height: 1.05;
+    font-family: "Crimson Text SemiBold 600";
+    color: white;
+    border-left: 5px #3D83C3 solid;
+    padding-left: 12px;
+  }
+  .content{
+    font-size: 20px;
+    color: white;
+    padding-right: 40px;
+  }
+  /* .button {
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 100px;
+    padding: 9px 17px;
+    white-space: normal;
+  } */
+  
+  .image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .image{
+      display: none;
+    }
+    .bigHeader {
+      font-size: 40px;
+      padding-left: 8px;
+    }
+  }
+  
+  @media screen and (max-width: 426px) {
+    .image {
+      display: none;
+      height: auto;
+    }
+    .button {
+      font-size: medium;
+    }
+    .bigHeader {
+      font-size: 25px;
+    }
+  }
+  

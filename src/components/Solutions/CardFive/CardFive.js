@@ -7,7 +7,6 @@ const CardFive = (props) => {
     heading1,
     content1,
     heading2,
-    highlights2,
     content2,
     heading3,
     content3,

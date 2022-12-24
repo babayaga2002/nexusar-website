@@ -16,8 +16,8 @@ const CardFour = (props) => {
     image3,
   } = props;
   return (
-    <Grid container spacing={6} sx={{pb: 6, justifyContent: "center"}}>
-      <Grid item sm={12} md={8} lg={4}>
+    <Grid container spacing={6} sx={{pb: 6}}>
+      <Grid item md={6} lg={4}>
         <Grid item>
           <Container>
             <img className={classes.image} src={image1} alt="card1"></img>
@@ -34,7 +34,7 @@ const CardFour = (props) => {
           </Container>
         </Grid>
       </Grid>
-      <Grid item sm={12}md={8} lg={4} >
+      <Grid item md={6} lg={4} >
         <Grid item>
           <Container>
             <img className={classes.image} src={image2} alt="card1"></img>
@@ -51,7 +51,7 @@ const CardFour = (props) => {
           </Container>
         </Grid>
       </Grid>
-      <Grid item sm={12} md={8} lg={4} >
+      <Grid item md={6} lg={4} >
         <Grid item>
           <Container>
             <img className={classes.image} src={image3} alt="card1"></img>

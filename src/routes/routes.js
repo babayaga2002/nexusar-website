@@ -1,7 +1,7 @@
 import { Route, Switch, Redirect } from 'react-router-dom';
 import { useLocation } from 'react-router';
 import Intro from '../pages/Intro/Intro';
-import Home from '../pages/Home';
+import Home from '../pages/Home/Home';
 import { Fragment } from 'react';
 import Navbar from '../components/layout/navbar/NavBar';
 import NotFound from '../pages/NotFound';
