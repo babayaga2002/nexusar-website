@@ -7,7 +7,19 @@
     color: #3D83C3;
 }
 .subHeading{
-    color: white;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background-image: linear-gradient(#ffffff,#ffffff);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -900px 0;
+    animation: backcolor 5s linear infinite alternate;
+}
+
+@keyframes backcolor {
+  100%{
+    background-position: 0 0;
+  }
 }
 @media screen and (max-width: 768px) {
     .bigHeader {
